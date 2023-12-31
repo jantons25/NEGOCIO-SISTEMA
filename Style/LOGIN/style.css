@@ -1,0 +1,165 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color--dos);
+    display: flex;
+    justify-content: center;
+}
+
+.login__article{
+    margin: auto;
+    background-color: white;
+    width: 70%;
+    max-width: 350px;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    border-radius: 20px;
+
+}
+
+.login__iniciar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.login__form .title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.login__input__usuario, .login__input__password{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.login__form input{
+    width: 100%;
+}
+
+.login__recordar{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    justify-content: start;
+    column-gap: 5px;
+}
+
+.login__recordar .recordar__label{
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.login__recordar .login__input__recordar{
+    width: 15px;
+}
+
+.login__button{
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--color--tres);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login__cta{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+/*IMAGEN*/
+
+.iniciar__figure{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+
+.iniciar__img{
+    width: 100%;
+    height: 100%;
+}
+
+/*PSEUDOCLASES*/
+
+.login__input__usuario:active, .login__input__usuario:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.login__input__password:active, .login__input__password:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.login__banner{
+    display: none;
+}
+
+@media (min-width:800px){
+
+    .login__article{
+        margin: auto;
+        background-color: white;
+        max-width: 700px;
+        padding: 0;
+    }
+
+    .login__banner{
+        width: 50%;
+        background-color: var(--color--tres);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        display: grid;
+        place-content: center;
+        row-gap: 20px;
+    }
+    
+    .login__figure{
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    .login__img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .login__banner h2{
+        color: var(--color--dos);
+    }
+
+    .login__iniciar{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+}
+
+

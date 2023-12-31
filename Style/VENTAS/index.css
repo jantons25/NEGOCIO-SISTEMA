@@ -1,0 +1,23 @@
+:root{
+    --color--tonobajo: rgb(179, 179, 179);
+}
+
+.section__ventas__index{
+    position: relative;
+    top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid var(--color--tonobajo);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.agregar__venta{
+    border-bottom: 1px solid var(--color--tonobajo);
+    padding-bottom: 10px;
+}
+
+.img__producto{
+    width: 40px;
+    height: 60px;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color--uno: #163020;
+    --color--dos: #EEF0E5;
+    --color--tres: #4F6F52;
+}
+
+html{
+    font-family: 'Archivo', sans-serif;
+}

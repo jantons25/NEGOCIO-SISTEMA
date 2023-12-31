@@ -1,0 +1,17 @@
+#article__crear__venta{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.form__crear{
+    max-width: 450px;
+}
+
+#col-12{
+    position: relative;
+    top: 100px;
+    padding-bottom: 20px;
+}
